@@ -1,0 +1,17 @@
+# Choose web server: apache or nginx
+web_server: "apache"
+
+# App repo to deploy into /var/www/html
+app_repo_url: "https://github.com/Santhoshramesh0111/aws-capstone-exam.git"
+app_version: "main"
+
+# RDS endpoint + credentials
+rds_endpoint: "streamline-db.cjae8awegyc2.us-east-1.rds.amazonaws.com:3306"
+rds_port: 3306
+db_name: "streamline-db"
+db_user: "admin"
+db_password: "YourStrongPassword"
+
+# Optional: if your repo contains application inside a subfolder
+# app_subdir: "app"
+app_subdir: ""
